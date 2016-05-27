@@ -1,0 +1,25 @@
+{
+    "mongo": {
+        "host": "127.0.0.1",
+        "port": 27017,
+        "user": "",
+        "password": "",
+        "database": "admin"
+    },
+    "mysql": {
+        "host": "192.168.99.100",
+        "port": 3306,
+        "user": "admin",
+        "password": "123456",
+        "database": "admin"
+    },
+    "redis": {
+        "host": "192.168.99.100",
+        "port": 6379
+    },
+    "log": {
+        "type": "file",
+        "path": "./storage/logs",
+        "status": true
+    }
+}

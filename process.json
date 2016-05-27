@@ -1,0 +1,11 @@
+{
+    "apps": [
+        {
+            "name": "start",
+            "script": "./api.js",
+            "watch": false,
+            "out_file": "./storage/pm2/out.log",
+            "error_file": "./storage/pm2/error.log"
+        }
+    ]
+}
